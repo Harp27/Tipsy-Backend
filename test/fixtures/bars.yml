@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  drink_name: MyString
+  drink_description: MyString
+  drink_picture_url: MyString
+  city_walkability: MyString
+  city_crime_rate: MyString
+
+two:
+  name: MyString
+  drink_name: MyString
+  drink_description: MyString
+  drink_picture_url: MyString
+  city_walkability: MyString
+  city_crime_rate: MyString
