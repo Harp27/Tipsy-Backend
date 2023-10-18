@@ -1,24 +1,31 @@
-# README
+# Tipsy_Traveler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Tipsy Traveler is an app that allows users create profiles and explore various locations and discover the best bars and drinks in each area. It provides essential information such as city/town walkability, crime rate, population, and age requirements for drinking. Users can actively contribute by editing, adding, or deleting locations to ensure up-to-date and accurate information. With The Tipsy Traveler, users can make informed decisions and enhance their nightlife experiences in new cities or their own hometown and share with friends.
 
-Things you may want to cover:
 
-* Ruby version
+- Technologies used: Ruby on Rails, React, Postgres, Devise, HTML/CSS/Bootstrap
+- [**LINK TO GITHUB**](https://github.com/Harp27/Tipsy-Backend)
+- [**LINK TO DEPLOYED SITE**](https://tipsybackend.onrender.com/bars)
 
-* System dependencies
 
-* Configuration
+## UI:
 
-* Database creation
+#### Landing Page:
+![Landing Page](./src/images/landing.png)
 
-* Database initialization
+#### Bars Page:
+![User Page](./src/images/bars.png)
 
-* How to run the test suite
+#### Show Page:
+![Show Page](./src/images/show.png)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## List of Backend Endpoints
+| ENDPOINT | METHOD | PURPOSE |
+|----------|--------|---------|
+| /bar | GET | list all locations |
+| /bar/new | GET | render page to create new plant |
+| /bar/:id | DELETE | delete specified location |
+| /bar | POST | recieve new info and create location in database |
+| /bar/:id/edit | PUT | edit a location |
+| /bar/:id | GET | show page with specified location |
