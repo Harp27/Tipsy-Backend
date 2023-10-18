@@ -11,13 +11,13 @@ The Tipsy Traveler is an app that allows users create profiles and explore vario
 ## UI:
 
 #### Landing Page:
-![Landing Page](./src/images/landing.png)
+![Landing Page](./public/images/landing.png)
 
 #### Bars Page:
-![User Page](./src/images/bars.png)
+![User Page](./public/images/bars.png)
 
 #### Show Page:
-![Show Page](./src/images/show.png)
+![Show Page](./public/images/show.png)
 
 
 ## List of Backend Endpoints
